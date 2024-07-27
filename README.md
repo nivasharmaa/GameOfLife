@@ -1,1 +1,1 @@
-# GameOfLife
+The game starts with an initial set of alive cells, forming the first generation. Using Java code, the next generation evolves by applying the given rules simultaneously to every cell on the game board, where births and deaths happen simultaneously. This process is repeated iteratively to create future generations. Each new generation depends exclusively on the preceding one.

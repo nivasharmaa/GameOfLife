@@ -8,8 +8,8 @@ Features:
 •	Start/Stop Functionality: Users can start and stop the simulation at any time.
 •	Customizable Grid Size: The grid size can be adjusted to explore different patterns and behaviors.
 •	Generation Tracking: Keeps track of the number of generations that have passed.
-
 •	Pattern Loading: Users can load predefined patterns into the grid.
+
 Concepts Used:
 •	Object-Oriented Programming (OOP): The project is structured using OOP principles with classes such as Board, GameOfLife, Button, and Page.
 •	Graphical User Interface (GUI): The GUI is implemented using custom drawing libraries (StdDraw) to render the game grid and control buttons.

@@ -3,12 +3,13 @@ Game of Life
 Overview: <br>
 This project is an implementation of Conway's Game of Life in Java. The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
 </br>
-Features:
-•	Interactive Grid: Users can create initial configurations by toggling cells on the grid.
-•	Start/Stop Functionality: Users can start and stop the simulation at any time.
-•	Customizable Grid Size: The grid size can be adjusted to explore different patterns and behaviors.
-•	Generation Tracking: Keeps track of the number of generations that have passed.
-•	Pattern Loading: Users can load predefined patterns into the grid.
+<br>
+Features: <br>
+•	Interactive Grid: Users can create initial configurations by toggling cells on the grid. <br>
+•	Start/Stop Functionality: Users can start and stop the simulation at any time.<br>
+•	Customizable Grid Size: The grid size can be adjusted to explore different patterns and behaviors.<br>
+•	Generation Tracking: Keeps track of the number of generations that have passed.<br>
+•	Pattern Loading: Users can load predefined patterns into the grid.<br>
 
 Concepts Used:
 •	Object-Oriented Programming (OOP): The project is structured using OOP principles with classes such as Board, GameOfLife, Button, and Page.

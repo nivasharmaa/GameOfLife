@@ -1,18 +1,28 @@
-## Getting Started
+Game of Life
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Overview:
+This project is an implementation of Conway's Game of Life in Java. The Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
 
-## Folder Structure
+Features:
+•	Interactive Grid: Users can create initial configurations by toggling cells on the grid.
+•	Start/Stop Functionality: Users can start and stop the simulation at any time.
+•	Customizable Grid Size: The grid size can be adjusted to explore different patterns and behaviors.
+•	Generation Tracking: Keeps track of the number of generations that have passed.
 
-The workspace contains two folders by default, where:
+•	Pattern Loading: Users can load predefined patterns into the grid.
+Concepts Used:
+•	Object-Oriented Programming (OOP): The project is structured using OOP principles with classes such as Board, GameOfLife, Button, and Page.
+•	Graphical User Interface (GUI): The GUI is implemented using custom drawing libraries (StdDraw) to render the game grid and control buttons.
+•	File I/O: The project includes functionality to read initial grid configurations from text files.
+•	Algorithms and Data Structures: Utilizes data structures like arrays and classes for managing the grid and game logic.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Files:
+•	Board.java: Manages the game board and game logic.
+•	GameOfLife.java: Implements the main logic for the Game of Life.
+•	Button.java: Handles button functionalities for starting, stopping, and resetting the game.
+•	Page.java: Manages the layout and rendering of the game page.
+•	Rectangle.java, Text.java: Utilities for drawing shapes and text on the screen.
+•	StdDraw.java, StdIn.java, StdOut.java: Custom standard libraries for drawing and input/output operations.
+•	WeightedQuickUnionUF.java: Data structure for managing connected components (not directly used in Game of Life but useful for related algorithms).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
